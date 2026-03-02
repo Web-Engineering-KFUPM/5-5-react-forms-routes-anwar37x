@@ -64,10 +64,10 @@ export default function App() {
           <Route path="*" element={<h2>404 — Not Found</h2>} />
         </Routes>
       </main>
-
-      <footer className="footer">
+            <footer className="footer">
         <span>© {new Date().getFullYear()} React Student Portal</span>
       </footer>
     </div>
   );
 }
+
